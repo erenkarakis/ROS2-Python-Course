@@ -23,7 +23,8 @@ setup(
             "my_py_node = my_py_pkg.my_first_node:main",
             "state_publisher = my_py_pkg.robot_state_publisher:main",
             "satellite = my_py_pkg.satellite:main",
-            "add_two_ints_server = my_py_pkg.add_two_ints_server:main"
+            "add_two_ints_server = my_py_pkg.add_two_ints_server:main",
+            "add_two_ints_client_no_oop = my_py_pkg.add_two_ints_client_no_oop:main"
         ],
     },
 )
