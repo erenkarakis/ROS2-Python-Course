@@ -23,7 +23,7 @@ def main(args=None):
         response = future.result()
         node.get_logger().info(f"{request.a} + {request.b} = {response.sum}")
     except Exception as e:
-        node.get_logger().error("Service call failed! %r" & (e,))
+        node.get_logger().error("Service call failed! %r" % (e,))
 
     rclpy.shutdown()
 
