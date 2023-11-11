@@ -1,0 +1,3 @@
+int64 motor_speed
+bool is_sensor_on
+string status_message
