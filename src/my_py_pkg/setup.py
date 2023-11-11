@@ -26,7 +26,8 @@ setup(
             "add_two_ints_server = my_py_pkg.add_two_ints_server:main",
             "add_two_ints_client_no_oop = my_py_pkg.add_two_ints_client_no_oop:main",
             "add_two_ints_client_oop = my_py_pkg.add_two_ints_client_oop:main",
-            "number_publisher = my_py_pkg.number_publisher:main"
+            "number_publisher = my_py_pkg.number_publisher:main",
+            "number_counter = my_py_pkg.number_counter:main"
         ],
     },
 )
